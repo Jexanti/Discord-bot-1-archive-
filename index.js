@@ -27,6 +27,9 @@ client.on('message', message => {
 	if (message.content === 'j/suggest') {
 		message.channel.send('Join this server and follow the instructions to suggest: https://discord.gg/nT655UJMZk');
 	}
+	if (message.content === 'j/develop') {
+		message.channel.send('DM @jexanti#5447 to develop, thanks for your enthusiasm! DISCLAIMER: You might not be allowed access. Only certain people can.');
+	}
 });
 
 // login to Discord with your app's token
