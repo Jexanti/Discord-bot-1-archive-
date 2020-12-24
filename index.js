@@ -28,7 +28,7 @@ client.on('message', message => {
 		message.channel.send('Join this server and follow the instructions to suggest: https://discord.gg/nT655UJMZk');
 	}
 	if (message.content === 'j/develop') {
-		message.channel.send('DM @jexanti#5447 to develop, thanks for your enthusiasm! DISCLAIMER: You might not be allowed access. Only certain people can.');
+		message.channel.send('DM @jexanti#5447 to develop, thank you for your enthusiasm! DISCLAIMER: You might not be allowed access. Only certain people can.');
 	}
 });
 
